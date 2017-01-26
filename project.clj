@@ -25,8 +25,7 @@
                  [ring-webjars "0.1.1"]
                  [ring/ring-core "1.5.1"]
                  [ring/ring-defaults "0.2.2"]
-                 [selmer "1.10.5"]
-                 [com.taoensso/timbre "4.8.0"]]
+                 [selmer "1.10.5"]]
 
   :min-lein-version "2.0.0"
 

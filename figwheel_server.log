@@ -18389,3 +18389,3163 @@ notifying browser that file changed:  out/optima/canvas2.js
 [36m----  Compiler Warning : Please see src/cljs/optima/canvas2.cljs  ----[0m
 [32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.541 seconds.[0m
 notifying browser that file changed:  out/optima/canvas2.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.331 seconds.[0m
+[36m----  Could not Analyze  src/cljs/optima/drawing/canvas.cljs  ----[0m
+
+  [1mNo such namespace: re-com.core, could not locate re_com/core.cljs, re_com/core.cljc, or Closure namespace "re-com.core" [0m
+
+[36m----  Analysis Error : Please see src/cljs/optima/drawing/canvas.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.559 seconds.[0m
+[36m----  Could not Analyze  src/cljs/optima/pages/main.cljs  ----[0m
+
+  [1mNo such namespace: taoensso.timbre, could not locate taoensso/timbre.cljs, taoensso/timbre.cljc, or Closure namespace "taoensso.timbre" [0m
+
+[36m----  Analysis Error : Please see src/cljs/optima/pages/main.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.55 seconds.[0m
+[36m----  Could not Analyze  src/cljs/optima/pages/main.cljs  ----[0m
+
+  [1mNo such namespace: taoensso.timbre, could not locate taoensso/timbre.cljs, taoensso/timbre.cljc, or Closure namespace "taoensso.timbre" [0m
+
+[36m----  Analysis Error : Please see src/cljs/optima/pages/main.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.496 seconds.[0m
+[36m----  Could not Analyze  src/cljs/optima/pages/main.cljs  ----[0m
+
+  [1mNo such namespace: taoensso.timbre, could not locate taoensso/timbre.cljs, taoensso/timbre.cljc, or Closure namespace "taoensso.timbre" [0m
+
+[36m----  Analysis Error : Please see src/cljs/optima/pages/main.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.594 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.258 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.203 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.999 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.596 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.136 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.327 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.28 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.89 seconds.[0m
+notifying browser that file changed:  out/optima/drawing/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.768 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+notifying browser that file changed:  out/optima/drawing/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.846 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/drawing/canvas.cljs   line:28  column:17  ----[0m
+
+  [1mUse of undeclared Var optima.drawing.canvas/picasso[0m
+
+  [36m24[0m  [36m                                (q/ellipse (* tt (q/sin tt))[0m
+  [36m25[0m  [36m                                           (* tt (q/cos tt))[0m
+  [36m26[0m  [36m                                           10[0m
+  [36m27[0m  [36m                                           10)))))][0m
+  [33m28[0m  [1m(qor/sketch picasso[0m
+  [0m  [0m  [33m            ^--- Use of undeclared Var optima.drawing.canvas/picasso[0m
+  [36m29[0m  [36m            :setup      initial-state[0m
+  [36m30[0m  [36m            :update     update-state[0m
+  [36m31[0m  [36m            :draw       draw[0m
+  [36m32[0m  [36m            :middleware [m/fun-mode][0m
+  [36m33[0m  [36m            :size       [w h])))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/drawing/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/drawing/canvas.cljs   line:38  column:27  ----[0m
+
+  [1mUse of undeclared Var optima.drawing.canvas/foo[0m
+
+  [36m35[0m  [36m(defn hello-world [][0m
+  [36m36[0m  [36m  (r/create-class[0m
+  [36m37[0m  [36m    {:reagent-render      (fn [] [:canvas#foo {:width 200 :height 400}])[0m
+  [33m38[0m  [1m     :component-did-mount foo}))[0m
+  [0m  [0m  [33m                          ^--- Use of undeclared Var optima.drawing.canvas/foo[0m
+  [36m39[0m  [36m[0m
+  [36m40[0m  [36m(defn render [][0m
+  [36m41[0m  [36m     (my-sketch 200 400))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/drawing/canvas.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.872 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/optima/pages.js
+notifying browser that file changed:  out/optima/drawing/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.682 seconds.[0m
+[36m----  Could not Analyze  src/cljs/optima/canvas.cljs   line:18  column:3  ----[0m
+
+  [1mWrong number of args (0) passed to: core/let[0m
+
+  [36m17[0m  [36m(defn draw-vertices [vertices][0m
+  [33m18[0m  [1m  (let ))[0m
+  [0m  [0m  [33m  ^--- Wrong number of args (0) passed to: core/let[0m
+  [36m19[0m  [36m[0m
+  [36m20[0m  [36m[0m
+  [36m21[0m  [36m(defn update-canvas [state][0m
+
+[36m----  Analysis Error : Please see src/cljs/optima/canvas.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:19  column:8  ----[0m
+
+  [1mCan't take value of macro cljs.core/let[0m
+
+  [36m15[0m  [36m  {:v vertices :e edges})[0m
+  [36m16[0m  [36m[0m
+  [36m17[0m  [36m(defn draw-vertices [vertices][0m
+  [36m18[0m  [36m  (#(()[0m
+  [33m19[0m  [1m     ) let ))[0m
+  [0m  [0m  [33m       ^--- Can't take value of macro cljs.core/let[0m
+  [36m20[0m  [36m[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m(defn update-canvas [state][0m
+  [36m23[0m  [36m  (update-in state [:v] inc))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.016 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.566 seconds.[0m
+[36m----  Could not Analyze  src/cljs/optima/canvas.cljs   line:18  column:3  ----[0m
+
+  [1mWrong number of args (1) passed to: analyzer/eval2164/fn--2165/pfn--2166[0m
+
+  [36m17[0m  [36m(defn draw-vertices [vertices][0m
+  [33m18[0m  [1m  (def [0m
+  [0m  [0m  [33m  ^--- Wrong number of args (1) passed to: analyzer/eval2164/fn--2165/pfn--2166[0m
+  [36m19[0m  [36m     ) let ))[0m
+
+[36m----  Analysis Error : Please see src/cljs/optima/canvas.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.106 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.839 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 8.382 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.296 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.184 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.121 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.984 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.476 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.091 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.022 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.154 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.859 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.892 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.03 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.055 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.834 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.959 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.864 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.917 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.715 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.75 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:29  column:30  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/w[0m
+
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+  [33m29[0m  [1m  (q/ellipse (rem (:t state) w) 46 55 55))[0m
+  [0m  [0m  [33m                             ^--- Use of undeclared Var optima.canvas/w[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m(q/defsketch foo[0m
+  [36m33[0m  [36m             :setup setup[0m
+  [36m34[0m  [36m             :update update-canvas[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:34  column:22  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/update-canvas[0m
+
+  [36m32[0m  [36m(q/defsketch foo[0m
+  [36m33[0m  [36m             :setup setup[0m
+  [33m34[0m  [1m             :update update-canvas[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var optima.canvas/update-canvas[0m
+  [36m35[0m  [36m             :draw draw[0m
+  [36m36[0m  [36m             :host "foo"[0m
+  [36m37[0m  [36m             :no-start true[0m
+  [36m38[0m  [36m             :middleware [m/fun-mode][0m
+  [36m39[0m  [36m             :size [@s/canvas-width @s/canvas-height])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:34  column:22  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/update-canvas[0m
+
+  [36m32[0m  [36m(q/defsketch foo[0m
+  [36m33[0m  [36m             :setup setup[0m
+  [33m34[0m  [1m             :update update-canvas[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var optima.canvas/update-canvas[0m
+  [36m35[0m  [36m             :draw draw[0m
+  [36m36[0m  [36m             :host "foo"[0m
+  [36m37[0m  [36m             :no-start true[0m
+  [36m38[0m  [36m             :middleware [m/fun-mode][0m
+  [36m39[0m  [36m             :size [@s/canvas-width @s/canvas-height])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:34  column:22  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/update-canvas[0m
+
+  [36m32[0m  [36m(q/defsketch foo[0m
+  [36m33[0m  [36m             :setup setup[0m
+  [33m34[0m  [1m             :update update-canvas[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var optima.canvas/update-canvas[0m
+  [36m35[0m  [36m             :draw draw[0m
+  [36m36[0m  [36m             :host "foo"[0m
+  [36m37[0m  [36m             :no-start true[0m
+  [36m38[0m  [36m             :middleware [m/fun-mode][0m
+  [36m39[0m  [36m             :size [@s/canvas-width @s/canvas-height])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.009 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:24  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m21[0m  [36m(defn setup [][0m
+  [36m22[0m  [36m  {:t 1})[0m
+  [36m23[0m  [36m[0m
+  [33m24[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m25[0m  [36m  (update-in state [:t] inc))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(defn draw [state][0m
+  [36m28[0m  [36m  (q/background 255)[0m
+  [36m29[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:30  column:30  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/w[0m
+
+  [36m27[0m  [36m(defn draw [state][0m
+  [36m28[0m  [36m  (q/background 255)[0m
+  [36m29[0m  [36m  (q/fill 0)[0m
+  [33m30[0m  [1m  (q/ellipse (rem (:t state) w) 46 55 55))[0m
+  [0m  [0m  [33m                             ^--- Use of undeclared Var optima.canvas/w[0m
+  [36m31[0m  [36m[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m(q/defsketch foo[0m
+  [36m34[0m  [36m             :setup setup[0m
+  [36m35[0m  [36m             :update update-canvas[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:35  column:22  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/update-canvas[0m
+
+  [36m33[0m  [36m(q/defsketch foo[0m
+  [36m34[0m  [36m             :setup setup[0m
+  [33m35[0m  [1m             :update update-canvas[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var optima.canvas/update-canvas[0m
+  [36m36[0m  [36m             :draw draw[0m
+  [36m37[0m  [36m             :host "foo"[0m
+  [36m38[0m  [36m             :no-start true[0m
+  [36m39[0m  [36m             :middleware [m/fun-mode][0m
+  [36m40[0m  [36m             :size [@s/canvas-width @s/canvas-height])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:35  column:22  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/update-canvas[0m
+
+  [36m33[0m  [36m(q/defsketch foo[0m
+  [36m34[0m  [36m             :setup setup[0m
+  [33m35[0m  [1m             :update update-canvas[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var optima.canvas/update-canvas[0m
+  [36m36[0m  [36m             :draw draw[0m
+  [36m37[0m  [36m             :host "foo"[0m
+  [36m38[0m  [36m             :no-start true[0m
+  [36m39[0m  [36m             :middleware [m/fun-mode][0m
+  [36m40[0m  [36m             :size [@s/canvas-width @s/canvas-height])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:35  column:22  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/update-canvas[0m
+
+  [36m33[0m  [36m(q/defsketch foo[0m
+  [36m34[0m  [36m             :setup setup[0m
+  [33m35[0m  [1m             :update update-canvas[0m
+  [0m  [0m  [33m                     ^--- Use of undeclared Var optima.canvas/update-canvas[0m
+  [36m36[0m  [36m             :draw draw[0m
+  [36m37[0m  [36m             :host "foo"[0m
+  [36m38[0m  [36m             :no-start true[0m
+  [36m39[0m  [36m             :middleware [m/fun-mode][0m
+  [36m40[0m  [36m             :size [@s/canvas-width @s/canvas-height])[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.786 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.838 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:25  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m22[0m  [36m(defn setup [][0m
+  [36m23[0m  [36m  {:t 1})[0m
+  [36m24[0m  [36m[0m
+  [33m25[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m26[0m  [36m  (update-in state [:t] inc))[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(defn draw [state][0m
+  [36m29[0m  [36m  (q/background 255)[0m
+  [36m30[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:31  column:30  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/w[0m
+
+  [36m28[0m  [36m(defn draw [state][0m
+  [36m29[0m  [36m  (q/background 255)[0m
+  [36m30[0m  [36m  (q/fill 0)[0m
+  [33m31[0m  [1m  (q/ellipse (rem (:t state) w) 46 55 55))[0m
+  [0m  [0m  [33m                             ^--- Use of undeclared Var optima.canvas/w[0m
+  [36m32[0m  [36m[0m
+  [36m33[0m  [36m[0m
+  [36m34[0m  [36m(q/defsketch foo[0m
+  [36m35[0m  [36m             :setup setup[0m
+  [36m36[0m  [36m             :update update[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.925 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:25  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m22[0m  [36m(defn setup [][0m
+  [36m23[0m  [36m  {:t 1})[0m
+  [36m24[0m  [36m[0m
+  [33m25[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m26[0m  [36m  (update-in state [:t] inc))[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(defn draw [state][0m
+  [36m29[0m  [36m  (q/background 255)[0m
+  [36m30[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.823 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.783 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.918 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.087 seconds.[0m
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 7.102 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/optima/pages.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.113 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.364 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.702 seconds.[0m
+[36m----  Could not Read  src/cljs/optima/canvas.cljs   line:26  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 26 and column 1[0m
+
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [33m26[0m  [1m(defn draw [state][0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 26 and column 1[0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+  [36m29[0m  [36m  (draw-vertices @vertices)[0m
+
+[36m----  Reader Error : Please see src/cljs/optima/canvas.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (draw-vertices @vertices))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.411 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.862 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.271 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:22  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m19[0m  [36m(defn setup [][0m
+  [36m20[0m  [36m  {:t 1})[0m
+  [36m21[0m  [36m[0m
+  [33m22[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m23[0m  [36m  (update-in state [:t] inc))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn draw [state][0m
+  [36m26[0m  [36m  (q/background 255)[0m
+  [36m27[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.035 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:22  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m19[0m  [36m(defn setup [][0m
+  [36m20[0m  [36m  {:t 1})[0m
+  [36m21[0m  [36m[0m
+  [33m22[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m23[0m  [36m  (update-in state [:t] inc))[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m(defn draw [state][0m
+  [36m26[0m  [36m  (q/background 255)[0m
+  [36m27[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.374 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m19[0m  [36m(defn setup [][0m
+  [36m20[0m  [36m  {:t 1[0m
+  [36m21[0m  [36m   :v vertices})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.113 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m19[0m  [36m(defn setup [][0m
+  [36m20[0m  [36m  {:t 1[0m
+  [36m21[0m  [36m   :v @vertices})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.998 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m19[0m  [36m(defn setup [][0m
+  [36m20[0m  [36m  {:t 1[0m
+  [36m21[0m  [36m   :v @vertices})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.088 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m19[0m  [36m(defn setup [][0m
+  [36m20[0m  [36m  {:t 1[0m
+  [36m21[0m  [36m   :v @vertices})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m(defn draw [state][0m
+  [36m27[0m  [36m  (q/background 255)[0m
+  [36m28[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.791 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[31mFailed to compile "target/cljsbuild/public/js/app.js" in 0.851 seconds.[0m
+[36m----  Could not Read  src/cljs/optima/canvas.cljs   line:20  column:23  ----[0m
+
+  [1mMap literal must contain an even number of forms[0m
+
+  [36m18[0m  [36m  {let [id (range cnt)] id[0m
+  [36m19[0m  [36m[0m
+  [33m20[0m  [1m                     })[0m
+  [0m  [0m  [33m                      ^--- Map literal must contain an even number of forms[0m
+  [36m21[0m  [36m[0m
+  [36m22[0m  [36m[0m
+  [36m23[0m  [36m (defn draw-vertices [vertex-list][0m
+
+[36m----  Reader Error : Please see src/cljs/optima/canvas.cljs  ----[0m
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.905 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.994 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:28  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m24[0m  [36m(defn setup [][0m
+  [36m25[0m  [36m  {:t 1[0m
+  [36m26[0m  [36m   :v @vertices})[0m
+  [36m27[0m  [36m[0m
+  [33m28[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m29[0m  [36m  (update-in state [:t] inc))[0m
+  [36m30[0m  [36m[0m
+  [36m31[0m  [36m(defn draw [state][0m
+  [36m32[0m  [36m  (q/background 255)[0m
+  [36m33[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:35  column:4  ----[0m
+
+  [1mUse of undeclared Var optima.canvas/draw-vertices[0m
+
+  [36m31[0m  [36m(defn draw [state][0m
+  [36m32[0m  [36m  (q/background 255)[0m
+  [36m33[0m  [36m  (q/fill 0)[0m
+  [36m34[0m  [36m  (q/ellipse (rem (:t state) @s/canvas-width) 46 55 55)[0m
+  [33m35[0m  [1m  (draw-vertices '((10 20 0) (55 70 10) (15 76 20))))[0m
+  [0m  [0m  [33m   ^--- Use of undeclared Var optima.canvas/draw-vertices[0m
+  [36m36[0m  [36m[0m
+  [36m37[0m  [36m[0m
+  [36m38[0m  [36m(q/defsketch foo[0m
+  [36m39[0m  [36m             :setup setup[0m
+  [36m40[0m  [36m             :update nil[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 8.961 seconds.[0m
+notifying browser that file changed:  target/cljsbuild/public/js/out/goog/deps.js
+notifying browser that file changed:  target/cljsbuild/public/js/out/cljs_deps.js
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:26  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m22[0m  [36m(defn setup [][0m
+  [36m23[0m  [36m  {:t 1[0m
+  [36m24[0m  [36m   :v @vertices})[0m
+  [36m25[0m  [36m[0m
+  [33m26[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m27[0m  [36m  (update-in state [:t] inc))[0m
+  [36m28[0m  [36m[0m
+  [36m29[0m  [36m(defn draw [state][0m
+  [36m30[0m  [36m  (q/background 255)[0m
+  [36m31[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.69 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:25  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m22[0m  [36m(defn setup [][0m
+  [36m23[0m  [36m  {:t 1})[0m
+  [36m24[0m  [36m[0m
+  [33m25[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m26[0m  [36m  (update-in state [:t] inc))[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(defn draw [state][0m
+  [36m29[0m  [36m  (q/background 255)[0m
+  [36m30[0m  [36m  (q/fill 0)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 2.048 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:14  column:10  ----[0m
+
+  [1mWrong number of args (1) passed to optima.canvas/simple-vertex[0m
+
+  [36m12[0m  [36m(defn create-rand-vertex-list [cnt x-max y-max][0m
+  [36m13[0m  [36m  (defn simple-vertex [] {:x (rand-int x-max) :y (rand-int y-max) :colorID 0})[0m
+  [33m14[0m  [1m  (mapv #(simple-vertex %) (range cnt)))[0m
+  [0m  [0m  [33m         ^--- Wrong number of args (1) passed to optima.canvas/simple-vertex[0m
+  [36m15[0m  [36m[0m
+  [36m16[0m  [36m(defn draw-vertex [v][0m
+  [36m17[0m  [36m  (q/ellipse {:x v} {:y v} 55 55))[0m
+  [36m18[0m  [36m[0m
+  [36m19[0m  [36m(def my-vertices (create-rand-vertex-list 10 50 50))[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:24  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m21[0m  [36m(defn setup [][0m
+  [36m22[0m  [36m  {:t 1})[0m
+  [36m23[0m  [36m[0m
+  [33m24[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m25[0m  [36m  (update-in state [:t] inc))[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m[0m
+  [36m28[0m  [36m(defn draw [state][0m
+  [36m29[0m  [36m  (q/background 255)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.545 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(defn draw [state][0m
+  [36m28[0m  [36m  (q/background 255)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.363 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mupdate already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+
+  [36m20[0m  [36m(defn setup [][0m
+  [36m21[0m  [36m  {:t 1})[0m
+  [36m22[0m  [36m[0m
+  [33m23[0m  [1m(defn update [state][0m
+  [0m  [0m  [33m^--- update already refers to: cljs.core/update being replaced by: optima.canvas/update[0m
+  [36m24[0m  [36m  (update-in state [:t] inc))[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m[0m
+  [36m27[0m  [36m(defn draw [state][0m
+  [36m28[0m  [36m  (q/background 255)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.104 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mvertices at line 9 is being replaced[0m
+
+  [36m19[0m  [36m;;STATE SECTION[0m
+  [36m20[0m  [36m(def screen-width (r/atom 500))[0m
+  [36m21[0m  [36m(def screen-height (r/atom 500))[0m
+  [36m22[0m  [36m(def vertex-cnt (r/atom 10))[0m
+  [33m23[0m  [1m(def vertices (r/atom (create-rand-vertex-list @vertex-cnt @s/canvas-width @s/canvas-height)))[0m
+  [0m  [0m  [33m^--- vertices at line 9 is being replaced[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m;;DRAWING SECTION[0m
+  [36m27[0m  [36m(defn draw-path [][0m
+  [36m28[0m  [36m  (q/background 255)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.079 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   src/cljs/optima/canvas.cljs   line:23  column:1  ----[0m
+
+  [1mvertices at line 9 is being replaced[0m
+
+  [36m19[0m  [36m;;STATE SECTION[0m
+  [36m20[0m  [36m(def screen-width (r/atom 500))[0m
+  [36m21[0m  [36m(def screen-height (r/atom 500))[0m
+  [36m22[0m  [36m(def vertex-cnt (r/atom 10))[0m
+  [33m23[0m  [1m(def vertices (r/atom (create-rand-vertex-list @vertex-cnt @s/canvas-width @s/canvas-height)))[0m
+  [0m  [0m  [33m^--- vertices at line 9 is being replaced[0m
+  [36m24[0m  [36m[0m
+  [36m25[0m  [36m[0m
+  [36m26[0m  [36m;;DRAWING SECTION[0m
+  [36m27[0m  [36m(defn draw-path [][0m
+  [36m28[0m  [36m  (q/background 255)[0m
+
+[36m----  Compiler Warning : Please see src/cljs/optima/canvas.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.038 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.284 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.954 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.158 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.277 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.814 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.771 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.721 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.723 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.868 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 1.107 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.722 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.715 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.797 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.875 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.891 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.65 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.772 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.839 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.627 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
+[0mCompiling "target/cljsbuild/public/js/app.js" from ["src/cljs" "src/cljc" "env/dev/cljs"]...[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:10  column:14  ----[0m
+
+  [1mUse of undeclared Var optima.core/mount-components[0m
+
+  [36m 6[0m  [36m(enable-console-print!)[0m
+  [36m 7[0m  [36m[0m
+  [36m 8[0m  [36m(figwheel/watch-and-reload[0m
+  [36m 9[0m  [36m  :websocket-url "ws://localhost:3449/figwheel-ws"[0m
+  [33m10[0m  [1m  :on-jsload core/mount-components)[0m
+  [0m  [0m  [33m             ^--- Use of undeclared Var optima.core/mount-components[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [36m14[0m  [36m(core/init!)[0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[36m----  Compiler Warning on   env/dev/cljs/optima/app.cljs   line:14  column:2  ----[0m
+
+  [1mUse of undeclared Var optima.core/init![0m
+
+  [36m10[0m  [36m  :on-jsload core/mount-components)[0m
+  [36m11[0m  [36m[0m
+  [36m12[0m  [36m(devtools/install!)[0m
+  [36m13[0m  [36m[0m
+  [33m14[0m  [1m(core/init!)[0m
+  [0m  [0m  [33m ^--- Use of undeclared Var optima.core/init![0m
+
+[36m----  Compiler Warning : Please see env/dev/cljs/optima/app.cljs  ----[0m
+[32mSuccessfully compiled "target/cljsbuild/public/js/app.js" in 0.703 seconds.[0m
+notifying browser that file changed:  out/optima/canvas.js
