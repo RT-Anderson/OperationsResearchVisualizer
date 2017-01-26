@@ -7,5 +7,5 @@
 (defonce current-page (r/atom "Operations Reseach Fundemental Problems"))
 
 
-(defonce canvas-width (r/atom 500))
+(defonce canvas-width (r/atom 1000))
 (defonce canvas-height (r/atom 500))
