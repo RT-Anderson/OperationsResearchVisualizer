@@ -4,11 +4,21 @@
             [cljs-react-material-ui.core :refer [get-mui-theme color]]
             [cljs-react-material-ui.reagent :as ui]
             [cljs-react-material-ui.icons :as ic]
+            [optima.session :as s]
             [optima.canvas :as canvas]))
 
-
+(def forcer (r/atom true))
 (def more-info (r/atom false))
 (def open-tsp-settings (r/atom false))
+(def settings-dropdown (r/atom "m"))
+(def settings-dropdown-algo (r/atom "aco"))
+(defn update-vertices []
+  (case @settings-dropdown
+    "s" 20
+    "m" 50
+    "l" 100
+    "xl" 500))
+
 
 (defn button [title action]
   [ui/raised-button {:label title :primary true :style { :height 75 :max-width 250 :text-align "center" }  :zDepth 4 :class "waves-effect waves-light black-text" :on-touch-tap action}])
@@ -29,8 +39,24 @@
               :open @open-tsp-settings
               :on-request-change #(reset! open-tsp-settings false)}
    [:div
-    [:h1 ]
-    [ui/raised-button {:label "close" :on-touch-tap #(reset! open-tsp-settings false)}]]])
+
+    [:div
+     [:p {:class "flow-text"} "Select number of vertices:  "
+      [ui/drop-down-menu {:value @settings-dropdown }
+       [ui/menu-item {:value "s" :primary-text "Small" :on-touch-tap #(reset! settings-dropdown "s") }]
+       [ui/menu-item {:value "m" :primary-text "Medium" :on-touch-tap #(reset! settings-dropdown "m") }]
+       [ui/menu-item {:value "l" :primary-text "Large" :on-touch-tap #(reset! settings-dropdown "l") }]
+       [ui/menu-item {:value "xl" :primary-text "Extra Large" :on-touch-tap #(reset! settings-dropdown "xl") }]]]]
+
+    [:div
+     [:p {:class "flow-text"} "Select solver technique:  "
+      [ui/drop-down-menu {:value @settings-dropdown-algo }
+       [ui/menu-item {:value "basic" :primary-text "Basic (No Optimization)" :on-touch-tap #(reset! settings-dropdown-algo "basic") }]
+       [ui/menu-item {:value "aco" :primary-text "Ant Colony Optimization" :on-touch-tap #(reset! settings-dropdown-algo "aco") }]]]]
+
+
+    [ui/raised-button {:label "Accept" :on-touch-tap #((canvas/redraw-vertices (update-vertices))
+                                                       (reset! open-tsp-settings false))}]]])
 
 
 
@@ -45,9 +71,10 @@
 
 
 (defn main []
-  [:div {:id "test22"}
-   [:h4 "Objective: Select the shortest path that connects all vertices"]
-   [canvas/hello-world (.-innerWidth js/window)]
+  [:div
+   [:h4 "Objective: Select the shortest path that connects all vertices" "Test:  " @s/canvas-width "  " @forcer]
+   ;;[canvas/hello-world (.-innerWidth js/window)]
+   [canvas/tsp-canvas-frame]
    (dashboard)
    (more-info-modal)
    (settings-modal)

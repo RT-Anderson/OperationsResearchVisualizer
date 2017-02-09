@@ -4,4 +4,5 @@
             [optima.templates :as t]))
 
 
-(r/render-component [t/wireframe] (.getElementById js/document "app"))
+
+(r/render [t/wireframe] (.getElementById js/document "app"))

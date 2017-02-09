@@ -18,19 +18,17 @@
     "About Me" [page/about-me]
     ))
 
-(defn switch [] (swap! s/sidebar-expanded? not))
-(defn expand-navbar [] (if @s/sidebar-expanded? 280 24))
-
+;;(defn switch [] (swap! s/sidebar-expanded? not))
 
 (defn header []
   [:div
    [ui/app-bar {:title @s/current-page
                 :zIndex 0
-                :style {:paddingLeft (expand-navbar)}
+                :style {:paddingLeft (s/sidebar-offset)}
                 :icon-element-left (r/as-element
                                      [ui/icon-button (ic/navigation-menu) { :on-touch-tap #(swap! s/sidebar-expanded? not)}])
 
-                :on-left-icon-button-touch-tap switch}]]
+                :on-left-icon-button-touch-tap s/toggle-sidebar}]]
   )
 
 (defn sidebar []
@@ -39,7 +37,7 @@
    [ui/drawer {:docked true
                :zIndex 0
                :open @s/sidebar-expanded?
-               :on-request-change switch}
+               :on-request-change s/toggle-sidebar}
 
     [:li {:on-touch-tap #(reset! s/current-page "Operations Reseach Fundemental Problems")}
      [:div {:class "logo-wrapper waves-light waves-effect waves-light"}
@@ -67,7 +65,7 @@
 
 
 (defn footer []
-  [:div                 {:style {:paddingLeft (expand-navbar)}}
+  [:div                 {:style {:paddingLeft (s/sidebar-offset)}}
    [:h1 "Footer"]])
 
 
@@ -83,7 +81,7 @@
     [:div
      [header]
      [sidebar]
-     [:div {:id "body" :style {:paddingLeft (expand-navbar)}} (select-page)]
+     [:div {:id "body" :style {:paddingLeft (s/sidebar-offset)}} (select-page)]
      ;;[footer]
      ]]])
 
