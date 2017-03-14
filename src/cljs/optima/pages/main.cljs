@@ -7,9 +7,14 @@
             [optima.session :as s]
             [optima.canvas :as canvas]))
 
+
+
+
 (def forcer (r/atom true))
 (def more-info (r/atom false))
 (def open-tsp-settings (r/atom false))
+(def open-solver-settings (r/atom false))
+
 (def settings-dropdown (r/atom "m"))
 (def settings-dropdown-algo (r/atom "aco"))
 (defn update-vertices []
@@ -48,37 +53,52 @@
        [ui/menu-item {:value "l" :primary-text "Large" :on-touch-tap #(reset! settings-dropdown "l") }]
        [ui/menu-item {:value "xl" :primary-text "Extra Large" :on-touch-tap #(reset! settings-dropdown "xl") }]]]]
 
+
+
+    [ui/raised-button {:label "Accept" :on-touch-tap #(   (reset! canvas/tmp-path [])
+                                                          (reset! s/aco-length "")
+                                                          (reset! s/greedy-length "")
+                                                          (canvas/redraw-vertices (update-vertices))
+                                                          (canvas/redraw-distlookup)
+                                                          (reset! open-tsp-settings false))}]]])
+
+(defn algo-selection-modal []
+  [ui/dialog {:title "Settings"
+              :modal "false"
+              :open @open-solver-settings
+              :on-request-change #(reset! open-solver-settings false)}
+   [:div
     [:div
      [:p {:class "flow-text"} "Select solver technique:  "
       [ui/drop-down-menu {:value @settings-dropdown-algo }
-       [ui/menu-item {:value "basic" :primary-text "Basic (No Optimization)" :on-touch-tap #(reset! settings-dropdown-algo "basic") }]
+       [ui/menu-item {:value "greedy" :primary-text "Greedy Search" :on-touch-tap #(reset! settings-dropdown-algo "greedy-search") }]
        [ui/menu-item {:value "aco" :primary-text "Ant Colony Optimization" :on-touch-tap #(reset! settings-dropdown-algo "aco") }]]]]
 
 
-    [ui/raised-button {:label "Accept" :on-touch-tap #((canvas/redraw-vertices (update-vertices))
-                                                       (reset! open-tsp-settings false))}]]])
+    [ui/raised-button {:label "Accept" :on-touch-tap #(reset! open-solver-settings false)}]]])
 
 
 
 
 (defn dashboard []
   [:div {:class "row" }
-   [:div {:class "col s4 m4 m4 container"} (button "Additional Information" #(reset! more-info true))]
-   [:div {:class "col s4 m4 m4 container"} (button "Configure Optimizer" #(reset! open-tsp-settings true)) ]
-   [:div {:class "col s4 m4 m4 container"} (button "Run Optimizer" #(reset! more-info true)) ]
-   ])
+   [:div {:class "col s3 m3 m3 container"} (button "Additional Information" #(reset! more-info true))]
+   [:div {:class "col s3 m3 m3 container"} (button "Configure Graph" #(reset! open-tsp-settings true)) ]
+   [:div {:class "col s3 m3 m3 container"} (button "Configure Optimizer" #(reset! open-solver-settings true)) ]
+   [:div {:class "col s3 m3 m3 container"} (button "Run Optimizer" #(canvas/redraw-path @settings-dropdown-algo)) ]])
 
 
 
 (defn main []
   [:div
-   [:h4 "Objective: Select the shortest path that connects all vertices" "Test:  " @s/canvas-width "  " @forcer]
-   ;;[canvas/hello-world (.-innerWidth js/window)]
-   [canvas/tsp-canvas-frame]
+   [:h4 "Objective: Find the shortest route between all points (using " @settings-dropdown-algo " heuristic)"]
+   [:h5 "Greedy-Search Route distance:  " @s/greedy-length
+    [:br] "Ant-Colony Route distance:  " @s/aco-length]
+   [canvas/tsp-canvas]
    (dashboard)
    (more-info-modal)
    (settings-modal)
-
+   (algo-selection-modal)
    ])
 
 
