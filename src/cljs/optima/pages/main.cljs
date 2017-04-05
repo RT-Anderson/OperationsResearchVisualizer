@@ -24,6 +24,19 @@
     "l" 100
     "xl" 500))
 
+(def waypoint-cnt (r/atom 20))
+
+(defn redraw-canvas []
+  (reset! canvas/tmp-path [])
+  (reset! s/aco-length "")
+  (reset! s/greedy-length "")
+  (canvas/redraw-vertices @waypoint-cnt)
+  (canvas/redraw-distlookup)
+  (reset! open-tsp-settings false))
+
+
+
+
 
 (defn button [title action]
   [ui/raised-button {:label title :primary true :style { :height 75 :max-width 250 :text-align "center" }  :zDepth 4 :class "waves-effect waves-light black-text" :on-touch-tap action}])
@@ -88,13 +101,28 @@
    [:div {:class "col s3 m3 m3 container"} (button "Run Optimizer" #(canvas/redraw-path @settings-dropdown-algo)) ]])
 
 
-
 (defn main []
   [:div
    [:h4 "Objective: Find the shortest route between all points (using " @settings-dropdown-algo " heuristic)"]
    [:h5 "Greedy-Search Route distance:  " @s/greedy-length
     [:br] "Ant-Colony Route distance:  " @s/aco-length]
    [canvas/tsp-canvas]
+   [ui/toolbar
+    [ui/toolbar-group
+     [ui/toolbar-title {:text "Waypoint Count: "}]
+     [ui/drop-down-menu {:text @waypoint-cnt :value @waypoint-cnt :on-change #(redraw-canvas)}
+      [ui/menu-item {:value 20 :primary-text "Small (20)" :on-touch-tap #(reset! waypoint-cnt 20)}]
+      [ui/menu-item {:value 50 :primary-text "Medium (50)" :on-touch-tap #(reset! waypoint-cnt 50)}]
+      [ui/menu-item {:value 75 :primary-text "Large (75)" :on-touch-tap #(reset! waypoint-cnt 75)}]]
+     [ui/toolbar-separator]
+     [ui/toolbar-title {:text "  Select Algorithm: "}]
+     [ui/drop-down-menu {:text @waypoint-cnt :value @waypoint-cnt :on-change #(redraw-canvas)}
+      [ui/menu-item {:value 20 :primary-text "Small (20)" :on-touch-tap #(reset! waypoint-cnt 20)}]
+      [ui/menu-item {:value 50 :primary-text "Medium (50)" :on-touch-tap #(reset! waypoint-cnt 50)}]
+      [ui/menu-item {:value 75 :primary-text "Large (75)" :on-touch-tap #(reset! waypoint-cnt 75)}]]
+     ]
+    [ui/toolbar-separator]
+    [ui/toolbar-group "dashboard"]]
    (dashboard)
    (more-info-modal)
    (settings-modal)
