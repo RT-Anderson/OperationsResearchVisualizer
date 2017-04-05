@@ -1,21 +1,7 @@
-# optima
+# Visual Representation of Fundamental Discrete Optimization Problems
+Single Page App that provides an real-time visualizer & solver for the travelling salesman problem (TSP).
+Web app currenty only solves TSP using greedy search and ant colony optimization (ACO).
+Canvas display is provided using quil library for clojurescript.
 
-generated using Luminus version "2.9.11.26"
 
-FIXME
-
-## Prerequisites
-
-You will need [Leiningen][1] 2.0 or above installed.
-
-[1]: https://github.com/technomancy/leiningen
-
-## Running
-
-To start a web server for the application, run:
-
-    lein run
-
-## License
-
-Copyright © 2017 FIXME
+## SPA is a work in progress; currently, only the TSP section is working. 
